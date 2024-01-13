@@ -48,6 +48,7 @@ hr {
   grid-area: main;
   background-color: white;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -79,6 +80,20 @@ button:active {
   background-color: brown;
 }
 button {
+  cursor: pointer;
+}
+main ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+main li {
+  background-color: black;
+  color: white;
+  font-size: 100%;
+  width: 30px;
+  text-align: center;
+  margin-right: 45px;
   cursor: pointer;
 }
 .footer {
@@ -132,7 +147,11 @@ a {
     align-items: center;
   }
   .main {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
+  }
+  main ul {
+    display: flex;
+    justify-content: center;
   }
 }
