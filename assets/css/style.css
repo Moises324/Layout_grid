@@ -102,6 +102,7 @@ button {
     "main"
     "footer";
   grid-template-columns: 1fr;
+  height: 100vh;
 }
 a {
   text-decoration: none;
